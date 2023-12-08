@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:azure;
+}
+.heading{
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.container{
+    width:400px;
+    background-color: white;
+    margin:auto;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow: -3px 4px 20px gray;
+}
+.underline{
+    text-align: center;
+    border-top: 4px solid rgb(133, 133, 243);
+    color:blue;
+    width:60px;
+    margin:auto;
+    margin-top:5px;
+}
+.imgdiv{
+    width:150px;
+    height:150px;
+    margin:auto;
+    position: relative;
+}
+img{
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+    border-radius: 50%;
+    z-index: 10;
+    
+}
+#name{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(0, 128, 255);
+    margin-top:50px
+}
+#duty{
+    text-align: center;
+    font-size: 23px;
+    color:black;
+    margin-top:10px;
+}
+#text{
+    text-align: justify;
+    width:340px;
+    font-size: 20px;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+.buttons{
+    width:30px;
+    margin:auto;
+    margin-top:20px;
+    font-size: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+#suprise{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#suprise button{
+    background-color: rgb(177, 177, 191);
+    padding: 4px;
+    margin-bottom:30px;
+    border-radius: 10px;
+transition: 0.5s;
+}
+
+#suprisebtn:hover{
+    background-color: rgb(64, 63, 63);
+    color:white;
+}
+@media screen and (max-width:700px){
+    .container{
+        width:75%;
+        margin:auto;
+        margin-top:30px;
+    }
+    #text{
+        width:75%;
+        font-size: 18px;
+        text-align: center; 
+        margin-top:10px
+    }
+    #name{
+        margin-top:40px;
+    }
+    #duty{
+        margin-top:8px;
+    }
+    .buttons{
+        width:20px;
+        margin:auto;
+        margin-top:10px;
+    }
+    #suprise{
+        width:80%;
+        margin:auto;
+        margin-top:10px;
+    }
+    }
